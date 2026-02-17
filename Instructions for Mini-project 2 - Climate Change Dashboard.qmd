@@ -1,0 +1,35 @@
+---
+title: "Instructions for Climate Change Dashboard"
+format: html
+editor: visual
+---
+
+## Overview
+
+Climate change and science has been an issue for discussion and debate for at least the last decade. Climate data collection is currently being collected for areas all over the world. Policy decisions are based on the most recent analysis conducted on data extracted from huge online repositories of this data. Due to the inherent growth in the electronic production and storage of information, there is often a feeling of "information overload" or inundation when facing the process of quantitative decision making. As an analyst your job will often be to explore large data sets and develop questions or ideas from visualizations of those data sets.
+
+The ability to synthesize large data sets using visualizations is a skill that all data scientists should have. In addition to this data scientists are called upon to present data syntheses and develop questions or ideas based on their data exploration. This lab should take you through the major steps in data exploration and presentation.
+
+## Objective
+
+The objective of this laboratory is to survey the available data, plan, design, and create an information dashboard that not only explores the data but helps you develop questions based on that data exploration. To accomplish this task you will have to complete a number of steps:
+
+1.  Identify what information interests you about climate change.
+2.  Find, collect, organize, and summarize the data necessary to create your data exploration plan.
+3.  Design and create the most appropriate visualizations *(no less than 5 visualizations)* to explore the data and present that information.
+4.  Finally organize the layout of those visualizations into a dashboard (use the `flexdashboard` package) in a way that shows your path of data exploration.
+5.  Develop four questions or ideas about climate change from your visualizations.
+
+## Dates & Deliverables
+
+-   Upload a HTML file or a Shiny URL to Canvas. The dashboard must include the `source_code = TRUE` parameter.
+
+-   You are welcome to work in groups of \<=2 people. However, each person in a group must submit their own HTML file on Canvas for grading!
+
+## Methods Help
+
+### Getting data
+
+There are lots of places we can get climate data to answer your questions. The simplest would be to go to [NOAA National Centers for Environmental Information](https://www.ncei.noaa.gov). There are all kinds of data here (regional, global, marine). Also, on the front page of the NOAA website there are also other websites that have climate data, such as: [Climate](https://www.climate.gov), [Drought](https://www.drought.gov). Obviously, you don't have to use all of them but it might be helpful to browse them to get ideas for the development of your questions.
+
+Alternatively, and more professionally, there are tons of packages that allow you to access data from R. See [rnoaa](https://docs.ropensci.org/rnoaa/) for a great primer on accessing NOAA data with 'R'. It is also a good introduction to API keys and their use.
